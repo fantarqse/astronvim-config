@@ -20,6 +20,8 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    ["<S-h>"] = { ":bprev<cr>", desc = "Previous buffer" },
+    ["<S-l>"] = { ":bnext<cr>", desc = "Next buffer" }
   },
   t = {
     -- setting a mapping to false will disable it
