@@ -3,6 +3,12 @@ return {
   -- Add plugins, the lazy syntax
     "doums/darcula",
     { "tpope/vim-fugitive", cmd = "Git" },
+    -- { "zbirenbaum/copilot.lua", cmd = "Copilot" },
+    {
+        "github/copilot.vim",
+        event = "VeryLazy",
+        autoStart = true,
+    },
   -- "andweeb/presence.nvim",
   -- {
   --   "ray-x/lsp_signature.nvim",

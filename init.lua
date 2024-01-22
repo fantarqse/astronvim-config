@@ -70,6 +70,7 @@ return {
   -- anything that doesn't fit in the normal config locations above can go here
   polish = function()
     -- Set up custom filetypes
+    vim.g.copilot_assume_mapped = true
     -- vim.filetype.add {
     --   extension = {
     --     foo = "fooscript",
