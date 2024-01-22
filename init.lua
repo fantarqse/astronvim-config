@@ -70,7 +70,14 @@ return {
   -- anything that doesn't fit in the normal config locations above can go here
   polish = function()
     -- Set up custom filetypes
+
+    -- Set up mapping for copilot
     vim.g.copilot_assume_mapped = true
+
+    -- Set up spell checking 
+    vim.opt.spell = true
+    vim.opt.spelllang = "en_us"
+    vim.opt.spelloptions = "camel"
     -- vim.filetype.add {
     --   extension = {
     --     foo = "fooscript",
