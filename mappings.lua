@@ -28,6 +28,10 @@ return {
       function() require("astronvim.utils.buffer").nav(vim.v.count > 0 and vim.v.count or 1) end, 
       desc = "Next buffer" 
     },
+
+    -- up/down scrolling
+    ["<C-d>"] = {"<C-d>zz"},
+    ["<C-u>"] = {"<C-u>zz"},
   },
   t = {
     -- setting a mapping to false will disable it
