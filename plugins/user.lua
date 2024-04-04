@@ -3,7 +3,7 @@ return {
   -- Add plugins, the lazy syntax
     "doums/darcula",
     { "tpope/vim-fugitive", cmd = "Git" },
-    -- { "zbirenbaum/copilot.lua", cmd = "Copilot" },
+    {"ThePrimeagen/vim-be-good", cmd = "VimBeGood"},
     {
         "github/copilot.vim",
         event = "VeryLazy",
