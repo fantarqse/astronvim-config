@@ -19,6 +19,7 @@ return {
 
   -- Set colorscheme to use
   -- colorscheme = "astrodark",
+  -- colorscheme = "darcula-dark",
   colorscheme = "darcula",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
@@ -74,7 +75,7 @@ return {
     -- Set up mapping for copilot
     vim.g.copilot_assume_mapped = true
 
-    -- Set up spell checking 
+    -- Set up mapping for spell checking
     vim.opt.spell = true
     vim.opt.spelllang = "en_us"
     vim.opt.spelloptions = "camel"
