@@ -19,8 +19,8 @@ return {
 
   -- Set colorscheme to use
   -- colorscheme = "astrodark",
-  -- colorscheme = "darcula-dark",
   colorscheme = "darcula",
+  -- colorscheme = "nordic",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {

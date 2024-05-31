@@ -3,6 +3,7 @@ return {
   -- Add plugins, the lazy syntax
   -- Color schemes
     { "doums/darcula" },
+    { "AlexvZyl/nordic.nvim" },
 
     { "tpope/vim-fugitive", cmd = "Git" },
     { "ThePrimeagen/vim-be-good", cmd = "VimBeGood" },
