@@ -21,6 +21,7 @@ return {
   -- colorscheme = "astrodark",
   colorscheme = "darcula",
   -- colorscheme = "nordic",
+  -- colorscheme = "tokyonight-night",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {

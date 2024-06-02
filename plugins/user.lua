@@ -4,6 +4,7 @@ return {
   -- Color schemes
     { "doums/darcula" },
     { "AlexvZyl/nordic.nvim" },
+    { "folke/tokyonight.nvim" },
 
     { "tpope/vim-fugitive", cmd = "Git" },
     { "ThePrimeagen/vim-be-good", cmd = "VimBeGood" },
