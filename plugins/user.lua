@@ -5,6 +5,7 @@ return {
     { "doums/darcula" },
     { "AlexvZyl/nordic.nvim" },
     { "folke/tokyonight.nvim" },
+    { "antonio-hickey/minty-melon" },
 
     { "tpope/vim-fugitive", cmd = "Git" },
     { "ThePrimeagen/vim-be-good", cmd = "VimBeGood" },
