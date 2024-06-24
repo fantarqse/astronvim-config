@@ -6,6 +6,7 @@ return {
     { "AlexvZyl/nordic.nvim" },
     { "folke/tokyonight.nvim" },
     { "antonio-hickey/minty-melon" },
+    { "catppuccin/nvim" },
 
     { "tpope/vim-fugitive", cmd = "Git" },
     { "ThePrimeagen/vim-be-good", cmd = "VimBeGood" },
